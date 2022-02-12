@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo Simulador</title>
+    <script src="assets/script/vendor.js" defer></script>
+    <script src="assets/script/app.js" defer></script>
+    <link rel="stylesheet" href="./assets/styles/style.css" type="text/css" />
+  </head>
+  <body>
+    <section>
+      <div class="nome">
+        <h2 class="nome-desafiante">Desafiante</h2>
+        <h2 class="nome-monstro">Monstro</h2>
+      </div>
+      <div class="barra">
+        <progress id="jogador-barra" max="100" value="100">100%</progress>
+        <progress id="monstro-barra" max="100" value="100">100%</progress>
+      </div>
+      <div class="barra-mana">
+        <progress id="mana-jogador" max="100" value="100">100%</progress>
+      </div>
+      <div class="img">
+        <img class="img-jogador" src="./assets/img/warrior.png" alt="Warrior" />
+        <img class="img-monstro" src="./assets/img/monster.png" alt="Monster" />
+      </div>
+    </section>
+    <section id="container-btn">
+      <section class="botao">
+        <button class="btn" id="ataque">Ataque</button>
+        <button class="btn" id="ataque-fortalecido">Ataque Fortalecido</button>
+        <button class="btn" id="cura">Cura</button>
+      </section>
+      <div id="magia-btn">
+        <button class="btn" id="magia">Magia</button>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,118 @@
+.nome {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding-top: 200px;
+  flex-direction: row;
+  gap: 30px;
+
+  color: white;
+}
+
+.nome-desafiante {
+  background-color: rgba(38, 36, 36, 0.844);
+  border-radius: 10px;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.nome-monstro {
+  background-color: rgba(38, 36, 36, 0.844);
+  border-radius: 10px;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#jogador-barra {
+  padding: 12px;
+}
+
+#monstro-barra {
+  padding: 12px;
+}
+
+#mana-jogador {
+  margin-left: 345px;
+  position: relative;
+  margin-top: -25px;
+  font-size: 12px;
+}
+
+.barra-mana {
+  display: flex;
+}
+
+.barra {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: baseline;
+  padding-bottom: 50px;
+}
+
+.img-jogador {
+  max-height: 150px;
+}
+
+.img-monstro {
+  max-height: 150px;
+  padding-bottom: 5px;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+body {
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgba(38, 36, 36, 0.844);
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+#magia-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+#magia {
+  width: 370px;
+}
+
+#ataque:hover {
+  background-color: rgb(247, 8, 0);
+}
+
+#cura:hover {
+  background-color: rgb(20, 233, 63);
+}
+
+#ataque-fortalecido:hover {
+  background-color: rgb(242, 180, 22);
+}
+
+#magia:hover {
+  background-color: rgb(22, 180, 242);
+}
